@@ -1,0 +1,22 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    margin-left: 81px;
+    text-decoration: none;
+    color: black;
+}
+#cover {
+    height: 757px;
+    display: flex;
+    align-items: center;
+    background-image: url(/photo/header_background.png);
+    background-size: cover;
+}
