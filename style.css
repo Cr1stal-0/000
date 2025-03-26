@@ -19,7 +19,7 @@ a {
     height: 757px;
     display: flex;
     align-items: center;
-    background-image: url(/dirr/photo/header_background.png);
+    background-image: url(/photo/header_background.png);
     background-size: cover;
 }
 
