@@ -5,13 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Skin care courses</title>
 </head>
 
 <body>
     <header class="container">
-        <img src="/photo/logo.png" alt="">
-        <nav>
+        <img src="photo/logo.png" alt="">
+        <nav class="oswald_regular_13">
             <a href="">ГЛАВНАЯ</a>
             <a href="">ОСТАВИТЬ ЗАЯВКУ</a>
             <a href="">ТАРИФЫ</a>
@@ -22,16 +28,55 @@
     <main>
         <section id="cover">
             <div class="cover-content container">
-                <h1>Добро пожаловать в мир идеальной кожи!</h1>
-                <p>Откройте для себя секреты сияющей и здоровой кожи вместе с нашими <br> экспертами! Мы предлагаем
+                <h1 class="oswald_regular_40">Добро пожаловать в мир идеальной кожи!</h1>
+                <p class="roboto_light_24">Откройте для себя секреты сияющей и здоровой кожи вместе с нашими <br>
+                    экспертами! Мы предлагаем
                     комплексные курсы по уходу за кожей, <br> разработанные специально для вас. Узнайте, как правильно
                     ухаживать <br> за своей кожей, выбрать подходящие средства и создать индивидуальный <br> ритуал
                     красоты. Начните путь к
                     безупречной коже уже сегодня!</p>
-                <button>Перейти к тарифам</button>
+                <button class="roboto_regular_20">Перейти к тарифам</button>
+            </div>
+        </section>
+
+        <section id="about-us">
+            <div class="container about-us-content">
+                <img src="/dirr/photo/o_nas.png" alt="О нас">
+                <div class="about-us-text">
+                    <h2 class="oswald_regular_48">О нас</h2>
+                    <p class="roboto_light_24">Мы — команда профессионалов, объединенных <br>
+                        одной целью: помочь вам обрести здоровую <br>
+                        и сияющую кожу. Наши эксперты имеют многолетний <br>
+                        опыт работы в индустрии красоты и постоянно <br>
+                        совершенствуют свои знания, чтобы предложить <br>
+                        вам самые эффективные методы ухода. Мы верим, <br>
+                        что каждый человек заслуживает выглядеть <br>
+                        и чувствовать себя наилучшим образом, и готовы <br>
+                        поделиться с вами всеми секретами красоты.</p>
+                </div>
             </div>
         </section>
     </main>
 </body>
+<section id="Catalog">
+    <div class="block-description">
+        <h2 class="oswald_regular_48">Тарифы</h2>
+        <p class="roboto_light_24">Выбирайте подходящий тариф и начните заботиться о своей коже уже сегодня!</p>
+    </div>
+    <div class="Cards">
+        <div class="Card">
+            <img src="/dirr/photo/bazoviy_tarif.png" alt="card.img">
+            <div class="card_description">
+                <h3 class="roboto_regular_24">Базовый тариф</h3>
+                <p class="roboto_light_20">Тариф включает базовые знания <br>
+                    о правильном подборе косметики <br>
+                    и ежедневном уходе. Вы узнаете, <br>
+                    как правильно очищать, тонизировать <br>
+                    и увлажнять кожу лица. </p>
+            </div>
+            <button class="roboto_regular_20">Оставить заявку</button>
+        </div>
+    </div>
+</section>
 
 </html>

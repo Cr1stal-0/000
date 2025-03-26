@@ -8,15 +8,109 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-a{
+
+a {
     margin-left: 81px;
     text-decoration: none;
     color: black;
 }
+
 #cover {
     height: 757px;
     display: flex;
     align-items: center;
-    background-image: url(/photo/header_background.png);
+    background-image: url(/dirr/photo/header_background.png);
     background-size: cover;
+}
+
+.oswald_regular_40 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40pt;
+    font-weight: 400;
+    font-style: normal;
+}
+.oswald_regular_48 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 48pt;
+    font-weight: 400;
+    font-style: normal;
+}
+.oswald_regular_13 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13pt;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.oswald_regular_14 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14pt;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto_light_24 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24pt;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.roboto_light_20 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20pt;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.roboto_regular_24 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24pt;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+.roboto_regular_20 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20pt;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+button {
+    width: 289px;
+    height: 57px;
+    background-color: #DC9999;
+    color: rgb(0, 0, 0);
+    border-radius: 15px 15px;
+    font-size: 20px;
+    padding: 0;
+    border: none;
+}
+
+.about-us-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-us-text {
+    margin: 10px;
+}
+
+h2 {
+    margin: 0;
 }
