@@ -26,28 +26,31 @@ a {
 .oswald_regular_40 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-size: 40pt;
+    font-size: 40px;
     font-weight: 400;
     font-style: normal;
 }
+
 .oswald_regular_36 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-size: 36pt;
+    font-size: 36px;
     font-weight: 400;
     font-style: normal;
 }
+
 .oswald_regular_48 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-size: 48pt;
+    font-size: 48px;
     font-weight: 400;
     font-style: normal;
 }
+
 .oswald_regular_13 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-size: 13pt;
+    font-size: 13px;
     font-weight: 400;
     font-style: normal;
 }
@@ -55,7 +58,15 @@ a {
 .oswald_regular_14 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-size: 14pt;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.oswald_regular_14 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
     font-weight: 400;
     font-style: normal;
 }
@@ -63,7 +74,7 @@ a {
 .roboto_light_24 {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-size: 24pt;
+    font-size: 24px;
     font-weight: 300;
     font-style: normal;
     font-variation-settings:
@@ -73,7 +84,27 @@ a {
 .roboto_light_20 {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-size: 20pt;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.roboto_light_14 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.roboto_light_13 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
     font-weight: 300;
     font-style: normal;
     font-variation-settings:
@@ -83,24 +114,24 @@ a {
 .roboto_regular_24 {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-size: 24pt;
+    font-size: 24px;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
 }
+
 .roboto_regular_20 {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-size: 20pt;
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
 }
+
 button {
-    width: 289px;
-    height: 57px;
     background-color: #DC9999;
     color: rgb(0, 0, 0);
     border-radius: 15px 15px;
@@ -112,6 +143,7 @@ button {
 .about-us-content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .about-us-text {
@@ -120,4 +152,221 @@ button {
 
 h2 {
     margin: 0;
+}
+
+.Cards {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.card {
+    width: 364px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form {
+    height: 626px;
+    background-image: url(/photo/feedbackform_background.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    flex-direction: column;
+}
+
+input {
+    width: 361px;
+    height: 58px;
+    padding-left: 23px;
+}
+
+#about-us {
+    margin: 100px;
+}
+
+#form {
+    margin-bottom: 100px;
+}
+
+#cover {
+    margin: 6px;
+}
+
+.ButtonCover {
+    width: 290px;
+    height: 57px;
+
+}
+
+.ButtonCatalog {
+    width: 366px;
+    height: 57px;
+}
+
+.Button {
+    width: 363px;
+    height: 57px;
+    background-color: #DC9999;
+    color: rgb(0, 0, 0);
+    border-radius: 15px 15px;
+    font-size: 20px;
+    padding: 0;
+    border: none;
+}
+
+.form_text {
+    margin-bottom: 82px;
+}
+
+.form_button {
+    margin-top: 24px;
+}
+
+input,
+textarea {
+    padding-left: 20px;
+    font-family: "Jost";
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    color: #000000;
+}
+
+input:active,
+textarea:active {
+    outline: none;
+    color: #000000;
+}
+
+.info {
+    margin-bottom: 41px;
+    display: grid;
+    gap: 23px;
+}
+
+.text {
+    margin: 0;
+}
+
+.element {
+    margin-bottom: 41px;
+}
+
+body {
+    margin: 0px;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.marginr {
+    margin-right: 20px;
+}
+
+.marginb {
+    margin-bottom: 20px;
+}
+
+.blog_text {
+    margin-bottom: 41px
+}
+
+#contacts {
+    height: 626px;
+    background-image: url(/photo/contacts_background.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.cover-content{
+    background-color: rgba(255, 255, 255, 0.71);
+    border-radius: 20px;
+    padding: 14px 39px;
+    width: 930px;
+}
+.contacts {
+    background-color: rgba(255, 255, 255, 0.71);
+    border-radius: 10px;
+    padding: 14px 39px;
+    width: 696px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social {
+    display: flex;
+    padding: 0;
+    margin-left: -9px;
+}
+
+.social a {
+    margin: 0;
+}
+
+.instagram {
+    margin-right: 11px;
+}
+
+.whatsapp {
+    margin-right: 11px;
+}
+
+.youtube {
+    margin-right: 11px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.social_text{
+    height: 96px;
+    display: flex;
+}
+
+.social_text ul{
+    margin-left: 66px;
+    padding: 0px;
+}
+
+.social_text img{
+    height: 51px;
+}
+
+.social_text li{
+    margin-bottom: 24px;
+    width: fit-content;
+}
+
+
+.Navigation li{
+    margin-top: 13px;
 }
