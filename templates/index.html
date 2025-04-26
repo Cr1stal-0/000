@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,7 +15,7 @@
 
 <body>
     <header class="container">
-        <img src="photo/logo.png" alt="">
+        <img src="{{ url_for('static', filename='photo/logo.png') }}" alt="">
         <nav class="oswald_regular_13">
             <a href="">ГЛАВНАЯ</a>
             <a href="">ОСТАВИТЬ ЗАЯВКУ</a>
@@ -41,7 +41,7 @@
 
         <section id="about-us">
             <div class="container about-us-content">
-                <img src="/photo/o_nas.png" alt="О нас">
+                <img src="{{ url_for('static', filename='photo/o_nas.png') }}" alt="О нас">
                 <div class="about-us-text">
                     <h2 class="oswald_regular_48">О нас</h2>
                     <p class="roboto_light_24">Мы — команда профессионалов, объединенных <br>
@@ -64,7 +64,7 @@
         </div>
         <div class="Cards">
             <div class="Card">
-                <img src="/photo/bazoviy_tarif.png" alt="card.img">
+                <img src="{{ url_for('static', filename='photo/bazoviy_tarif.png') }}" alt="card.img">
                 <div class="card_description">
 
                     <div class="name">
@@ -81,7 +81,7 @@
                 <button class="roboto_regular_20 ButtonCatalog">Оставить заявку</button>
             </div>
             <div class="Card">
-                <img src="/photo/standart_tarif.png" alt="card.img">
+                <img src="{{ url_for('static', filename='photo/standart_tarif.png') }}" alt="card.img">
                 <div class="card_description">
 
                     <div class="name">
@@ -97,7 +97,7 @@
                 <button class="roboto_regular_20 ButtonCatalog">Оставить заявку</button>
             </div>
             <div class="Card">
-                <img src="/photo/premium_tarif.png" alt="card.img">
+                <img src="{{ url_for('static', filename='photo/premium_tarif.png') }}" alt="card.img">
                 <div class="card_description">
 
                     <div class="name">
@@ -120,9 +120,9 @@
             <h2 class="oswald_regular_36 form_text">
                 Оставьте заявку — мы здесь, чтобы помочь вам!
             </h2>
-            <form action="">
-                <input type="text" placeholder="Ваше имя">
-                <input type="tel" placeholder="Ваш номер телефона">
+            <form method="POST">
+                <input type="text" name="name" placeholder="Ваше имя">
+                <input type="tel" name="phone" placeholder="Ваш номер телефона">
                 <input type="submit" value="Отправить заявку" class="Button form_button">
             </form>
         </div>
@@ -136,7 +136,7 @@
             <div class="post marginr marginb">
                 <div class="element">
                     <div class="info">
-                        <img src="/photo/blog_natural_ingredients.png" alt="Натуральные ингредиенты: мифы и реальность">
+                        <img src="{{ url_for('static', filename='photo/blog_natural_ingredients.png') }}" alt="Натуральные ингредиенты: мифы и реальность">
                         <p class="roboto_light_24 text">Натуральные ингредиенты: мифы и реальность</p>
                     </div>
                     <button class="Button roboto_regular_20">Узнать больше</button>
@@ -145,7 +145,7 @@
             <div class="post marginb">
                 <div class="element">
                     <div class="info">
-                        <img src="/photo/blog_yvlaj_krem.png" alt="Как правильно подобрать увлажняющий крем?">
+                        <img src="{{ url_for('static', filename='photo/blog_yvlaj_krem.png') }}" alt="Как правильно подобрать увлажняющий крем?">
                         <p class="roboto_light_24 text">Как правильно подобрать увлажняющий крем?</p>
                     </div>
                     <button class="Button roboto_regular_20">Узнать больше</button>
@@ -154,7 +154,7 @@
             <div class="post marginr">
                 <div class="element">
                     <div class="info">
-                        <img src="/photo/blog_mask.png" alt="Домашние маски для лица: рецепты красоты">
+                        <img src="{{ url_for('static', filename='photo/blog_mask.png') }}" alt="Домашние маски для лица: рецепты красоты">
                         <p class="roboto_light_24 text">Домашние маски для лица: рецепты красоты</p>
                     </div>
                     <button class="Button roboto_regular_20">Узнать больше</button>
@@ -163,7 +163,7 @@
             <div class="post">
                 <div class="element">
                     <div class="info">
-                        <img src="/photo/blog_trend2025.png" alt="Тренды в уходе за кожей: что актуально в 2025?">
+                        <img src="{{ url_for('static', filename='photo/blog_trend2025.png') }}" alt="Тренды в уходе за кожей: что актуально в 2025?">
                         <p class="roboto_light_24 text">Тренды в уходе за кожей: что актуально в 2025?</p>
                     </div>
                     <button class="Button roboto_regular_20">Узнать больше</button>
@@ -179,13 +179,13 @@
             <P class="roboto_regular_20">г. Москва, ул. Тверская, д. 15, офис 23</P>
                       <ul class="social">
                     
-                        <li class="instagram"><a href=""><img src="photo/instagram.png"></li>
+                        <li class="instagram"><a href=""><img src="{{ url_for('static', filename='photo/instagram.png') }}"></a></li>
                     
                     
-                        <li class="whatsapp"><a href=""><img src="photo/whatsapp.png"></a></li>
+                        <li class="whatsapp"><a href=""><img src="{{ url_for('static', filename='photo/whatsapp.png') }}"></a></li>
                   
                     
-                        <li class="youtube"><a href=""><img src="photo/youtube.png"></a></li>
+                        <li class="youtube"><a href=""><img src="{{ url_for('static', filename='photo/youtube.png') }}"></a></li>
                 </ul>
 
         </div>
@@ -193,7 +193,7 @@
     <section class="footer container">
         
         <div class="social_text">
-            <img src="photo/logo.png" alt="">
+            <img src="{{ url_for('static', filename='photo/logo.png') }}" alt="">
             <ul>
                 <li><a class="roboto_light_14" href="">Instagram</a></li>
                 <li><a class="roboto_light_14" href="">Whatsapp</a></li>

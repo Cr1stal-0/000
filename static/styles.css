@@ -19,7 +19,7 @@ a {
     height: 757px;
     display: flex;
     align-items: center;
-    background-image: url(/photo/header_background.png);
+    background-image: url(photo/header_background.png);
     background-size: cover;
 }
 
@@ -173,7 +173,7 @@ h2 {
 
 #form {
     height: 626px;
-    background-image: url(/photo/feedbackform_background.png);
+    background-image: url(photo/feedbackform_background.png);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -295,7 +295,7 @@ body {
 
 #contacts {
     height: 626px;
-    background-image: url(/photo/contacts_background.png);
+    background-image: url(photo/contacts_background.png);
     background-size: cover;
     display: flex;
     align-items: center;
